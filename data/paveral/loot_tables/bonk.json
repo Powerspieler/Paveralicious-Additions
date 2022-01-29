@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{paveral.bonk:1b}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "HornyJail certified."
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "BONK!",
+                "bold": true,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:knockback": {
+                  "min": 4,
+                  "max": 8
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

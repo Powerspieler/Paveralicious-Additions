@@ -1,0 +1,20 @@
+{
+	"replace": false,
+	"values": [
+		"paveral:tutorial_book/check_if_worthy",
+		"paveral:diaries",
+		"paveral:advancements",
+
+		"items:lightning_rod/main",
+		"items:sheepfreeze/main",
+		"items:jeb_wool/main",
+		"items:anti_creeper_grief/main",
+		"items:wrench/main",
+		"items:lightstaff/main",
+		"items:bedrock_breaker/main",
+		"items:boombox/main",
+
+		"paveral:spawn_protection",
+		"items:global.main"
+	]
+}

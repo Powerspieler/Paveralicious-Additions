@@ -1,0 +1,1 @@
+execute unless score #lcg lr.math matches ..0 unless score #lcg lr.math matches 1.. run function items:lightning_rod/rng/zprivate/uuid_reset

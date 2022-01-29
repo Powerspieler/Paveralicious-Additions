@@ -1,0 +1,10 @@
+execute unless entity @e[tag=forming,distance=..10] run function paveral:check_altar
+execute if score @s AltarValid matches 1 run function paveral:check_charge
+execute if score @s AnchorCharged matches 1 run function paveral:forming_process
+
+execute as @e[type=item,nbt={Item:{id: "minecraft:ancient_debris", Count: 4b}},tag=forming_base,scores={FormingAnimation=1}] at @s run data merge entity @e[type=item,nbt={Item:{id:"minecraft:obsidian", Count: 1b}},sort=nearest,limit=1] {NoGravity:1b,Motion:[0.0,0.0,0.0],PickupDelay:32767,Age:-32768,Tags:["forming"]}
+execute as @e[type=item,nbt={Item:{id: "minecraft:ancient_debris", Count: 4b}},tag=forming_base,scores={FormingAnimation=1}] at @s run data merge entity @e[type=item,nbt={Item:{id:"minecraft:piston", Count: 2b}},sort=nearest,limit=1] {NoGravity:1b,Motion:[0.0,0.0,0.0],PickupDelay:32767,Age:-32768,Tags:["forming"]}
+execute as @e[type=item,nbt={Item:{id: "minecraft:ancient_debris", Count: 4b}},tag=forming_base,scores={FormingAnimation=1}] at @s run data merge entity @e[type=item,nbt={Item:{id:"minecraft:tnt", Count: 2b}},sort=nearest,limit=1] {NoGravity:1b,Motion:[0.0,0.0,0.0],PickupDelay:32767,Age:-32768,Tags:["forming"]}
+execute as @e[type=item,nbt={Item:{id: "minecraft:ancient_debris", Count: 4b}},tag=forming_base,scores={FormingAnimation=1}] at @s run data merge entity @e[type=item,nbt={Item:{id:"minecraft:lever", Count: 1b}},sort=nearest,limit=1] {NoGravity:1b,Motion:[0.0,0.0,0.0],PickupDelay:32767,Age:-32768,Tags:["forming"]}
+execute as @e[type=item,nbt={Item:{id: "minecraft:ancient_debris", Count: 4b}},tag=forming_base,scores={FormingAnimation=1}] at @s run data merge entity @e[type=item,nbt={Item:{id:"minecraft:oak_trapdoor", Count: 1b}},sort=nearest,limit=1] {NoGravity:1b,Motion:[0.0,0.0,0.0],PickupDelay:32767,Age:-32768,Tags:["forming"]}
+execute as @e[type=item,nbt={Item:{id: "minecraft:ancient_debris", Count: 4b}},tag=forming_base,scores={FormingAnimation=119}] at @s run function paveral:forms/bedrock_breaker.addition

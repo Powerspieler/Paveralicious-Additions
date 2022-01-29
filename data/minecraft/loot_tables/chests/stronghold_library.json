@@ -1,0 +1,78 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 10
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pages: ['{\"text\":\"1. Foreword\\\\n\\\\n1.1 Potions\\\\n1.1.1 Positive Effects\\\\n1.1.2 Negative Effects\\\\n1.1.3 Ethically\\\\n       reprehensible?\\\\n\\\\n2.1 Enchantments\\\\n2.1.1 Ench. for Armor\\\\n2.1.2 Ench. for Tools\\\\n2.1.3 Ench. for Misc.\\\\n2.1.4 Overpowered\\\\n       Enchantments \"}', '{\"text\":\"1. Foreword\\\\n\\\\nThis documentation teaches you the basic of magic. Regarding Potions and also Enchantments. How careful you have to be with related stuff\\\\nand which benefits will\\\\nbe offered.\\\\n\\\\ncopyright 2021\\\\nby merlin \"}', '{\"text\":\"1.1 Potions\\\\nPotions can manipulate the strength and perception of humans.\\\\nBoth in a positive or a negative ways. \"}', '{\"text\":\"1.1.1 Positive Potions\\\\n\\\\n* Speed\\\\n* Leaping\\\\n* Haste\\\\n* Resistance\\\\n*\\\\n*\\\\n*\\\\n* (add more... later)\"}', '{\"text\":\"1.1.2 Negative Potions\\\\n\\\\n* Poison\\\\n* Hunger\\\\n* Blindness\\\\n* Slowness\\\\n*\\\\n*\\\\n\\\\n[Transition]\\\\n\\\\n* Wither\\\\n* Levitation\"}', '{\"text\":\"1.1.3 Ethically\\\\n       repreh..?\\\\n\\\\n[Text here]\\\\n\\\\n\\\\n\\\\nNobody care.. blah blah ...\"}', '{\"text\":\"2.1 Enchantments\\\\nEnchantments can improve your armor and gear beyond its physical boundaries.\\\\n\\\\nThere are no negative\\\\nEnchantments!\\\\n(Except for curses,\\\\nbut they are called \\\\\"curses\\\\\" so they are not \\\\\"negative Enchantments\\\\\"}\"}', '{\"text\":\"2.1.1 Ench. for Armor\\\\n\\\\n* Protection\\\\n* Mending\\\\n* Unbreaking\\\\n* Thorns\"}', '{\"text\":\"2.1.2 Ench. for Tools\\\\n\\\\n* Efficiency\\\\n* Unbreaking\\\\n* Mending\\\\n*\\\\n*\\\\n*\\\\n*\"}', '{\"text\":\"2.1.3 Ench. for Misc\\\\n\\\\nPickaxe/Axe/Shovel:\\\\n* Silk Touch\\\\n* Fortune\\\\n\\\\nSword:\\\\n* Fire Aspect\\\\n* Looting\\\\n* Knockback\\\\n\\\\nTrident:\\\\n* Channeling\\\\n*\"}', '{\"text\":\"Thanks for reading my documentation, I hope you learned something new and you will be more careful with the magic out there.\\\\nSee ya!!\\\\n\\\\n-[Magic: Beautiful and\\\\n           Dangerous]-\\\\n.. Concept by merlin\\\\n\\\\n  copyright 2021\"}', '{\"text\":\"\"}', '{\"text\":\"\"}', '{\"text\":\"\"}', '{\"text\":\"\"}', '{\"text\":\"2.1.4 Overpowered\\\\n       Enchantments\\\\n\\\\nEvery Enchantment\\\\nhas an \\'Enhanced\\' - Variant.\\\\nThose are used to create items that are out of this world.\\\\nTo upgrade an Enchantment, combine it with a Netherite  Scrap to create its \\'Enhanced\\' - Variant\"}'], title: \"Diary [#84]\", author: \"\",paveral.diary:1b,paveral.diary.id:84,generation:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

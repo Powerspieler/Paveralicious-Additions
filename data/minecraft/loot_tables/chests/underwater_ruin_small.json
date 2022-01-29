@@ -1,0 +1,109 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 8
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:stone_axe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:rotten_flesh"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:wheat",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pages: ['{\"text\":\"Day ??:\\\\nI still don\\'t know what day this is.\\\\nBut at least i can start writing a new journal again since the book of my last one got full.\\\\nNothing happend today, i just wanted to write again. So maybe there will be some interesting tomorrow..\\\\n\\\\n\"}', '{\"text\":\"Day 01:\\\\nTo not get confused with the order of my pages I\\'m just going to name this \\'Day 01\\' and tomorrow will be \\'Day 02\\'. Wow, so exciting - A new start.\\\\n\\\\nToday i was out in the ocean to fish, like the other 6 days of the week. Beside the\\\\n\\\\n\"}', '{\"text\":\"beautiful sunset and the big bobo fish I have catched, there were pretty high waves. My boat almost fell over, not gonna lie. \"}', '{\"text\":\"Day 03:\\\\nThe waves are as high as never before. I had no time writing an \\'Day 02\\' entry yesterday, because i needed to save my house from the waves.\\\\nI hope the ocean can chill down a bit the next week.\"}', '{\"text\":\"Day 04:\\\\nIt\\'s pretty interesting what junk the ocean is washing to my house. Ok, it\\'s not only junk. There is a lot of fish - it\\'s like i can work from home.\\\\nBut back to the junk: Kelp, some interesting looking Eggs, and a lot of shells. Oh, i almost forgot, there was some kind of\"}', '{\"text\":\"stone plate before.  \\\\nThere was something drawn on it. I think it was like a staff with three sharp parts on the top of it and a book. There was also something written on the book but i can\\'t remember...\"}', '{\"text\":\"Day 07:\\\\nThere is a storm outside. The waves are becoming higher and higher. I hope this nightmare will end soon. It least i saved this weird stone plate from a few days ago.\\\\n\\\\nI can\\'t read the text written on that book.\\\\nI have never seen this language before,\"}', '{\"text\":\"even the letters seem odd. The only thing I can do is copying them. Maybe someone will understand this, someday:\\\\n\\\\n\\\\n\\\\nŀリ〒ᔑリᓵŀ↸ ᓵ〒ᔑリリŀꖎ╎リㅓ\"}', '{\"text\":\"Day 12:\\\\nThe ocean has reached into my house. I think this will not end. I have to move out and leave may home behind.\\\\nI will ask my friend if I could stay i while at his house.\\\\n\\\\nNew adventures are waiting for me!\"}'], title: \"Diary [#17]\", author: \"\", paveral.diary: 1b, paveral.diary.id: 17, generation: 3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "decoration": "red_x",
+              "zoom": 1,
+              "skip_existing_chunks": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

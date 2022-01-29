@@ -1,0 +1,192 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Press ",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "keybind": "key.use",
+                      "color": "yellow",
+                      "italic": false
+                    },
+                    {
+                      "text": " to use the wrench.",
+                      "italic": false
+                    }
+                  ]
+                },
+                {
+                  "text": "Press ",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "keybind": "key.drop",
+                      "color": "yellow",
+                      "italic": false
+                    },
+                    {
+                      "text": " to change the selected mode. ",
+                      "italic": false
+                    }
+                  ]
+                },
+                {
+                  "text": "",
+                  "italic": false
+                },
+                {
+                  "text": "Terracotta: ",
+                  "color": "blue",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "Changes the rotation of glazed terracotta.",
+                      "color": "dark_purple",
+                      "italic": false
+                    }
+                  ]
+                },
+                {
+                  "text": "Redstone: ",
+                  "color": "blue",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "Changes the rotation of redstone components. ",
+                      "color": "dark_purple",
+                      "italic": false
+                    }
+                  ]
+                },
+                {
+                  "text": "             (Note: Observers trigger when rotated!)",
+                  "color": "red",
+                  "italic": false
+                },
+                {
+                  "text": "Rail: ",
+                  "color": "blue",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "Changes the orientation of rails.",
+                      "color": "dark_purple",
+                      "italic": false
+                    }
+                  ]
+                },
+                {
+                  "text": "      Press ",
+                  "color": "dark_purple",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "keybind": "key.sneak",
+                      "color": "yellow",
+                      "italic": false
+                    },
+                    {
+                      "text": " while pressing ",
+                      "color": "dark_purple",
+                      "italic": false
+                    },
+                    {
+                      "keybind": "key.use",
+                      "color": "yellow",
+                      "italic": false
+                    }
+                  ]
+                },
+                {
+                  "text": "      to lift up the rail if adjacent to a block.",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                {
+                  "text": "Iron Trapdoor: ",
+                  "color": "blue",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "Open and close iron trapdoors. ",
+                      "color": "dark_purple",
+                      "italic": false
+                    }
+                  ]
+                },
+                {
+                  "text": "Ladder: ",
+                  "color": "blue",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "Place ladders from your inventory",
+                      "color": "dark_purple",
+                      "italic": false
+                    }
+                  ]
+                },
+                {
+                  "text": "           without needing a supportive block.",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                {
+                  "text": "",
+                  "italic": false
+                },
+                {
+                  "text": "Press ",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "keybind": "key.sneak",
+                      "color": "yellow",
+                      "italic": false
+                    },
+                    {
+                      "text": " + ",
+                      "italic": false
+                    },
+                    {
+                      "keybind": "key.drop",
+                      "color": "yellow",
+                      "italic": false
+                    },
+                    {
+                      "text": " to drop the wrench.",
+                      "italic": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Wrench",
+                "color": "red",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{paveral.wrench:1b,mode:terracotta,Unbreakable:1b,CustomModelData:3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

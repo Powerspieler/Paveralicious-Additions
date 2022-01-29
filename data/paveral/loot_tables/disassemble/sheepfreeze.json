@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blaze_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,paveral.golden_crook_base:1b,display:{Name:'{\"text\":\"Golden Crook\",\"color\":\"light_purple\",\"italic\":\"false\"}',Lore:['{\"text\":\"No magical stone added!\"}']}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glow_item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_red\",\"text\":\"R\"},{\"italic\":false,\"color\":\"gold\",\"text\":\"a\"},{\"italic\":false,\"color\":\"yellow\",\"text\":\"i\"},{\"italic\":false,\"color\":\"green\",\"text\":\"n\"},{\"italic\":false,\"color\":\"aqua\",\"text\":\"b\"},{\"italic\":false,\"color\":\"blue\",\"text\":\"o\"},{\"italic\":false,\"color\":\"dark_purple\",\"text\":\"w \"},{\"italic\":false,\"color\":\"dark_red\",\"text\":\"W\"},{\"italic\":false,\"color\":\"gold\",\"text\":\"o\"},{\"italic\":false,\"color\":\"yellow\",\"text\":\"o\"},{\"italic\":false,\"color\":\"green\",\"text\":\"l\"},{\"italic\":false,\"color\":\"white\",\"text\":\"!\"}],\"text\":\"\"}'},CustomModelData:1,paveral.jeb_wool:1b,EntityTag:{Silent:1b,Tags:[\"paveral.jeb_wool\"],Item:{id:\"minecraft:glow_item_frame\",Count:1b,tag:{CustomModelData:1}},Invulnerable:1b,Invisible:1b,Fixed:1b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

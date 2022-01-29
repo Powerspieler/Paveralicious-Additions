@@ -1,0 +1,68 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{Enchantments:[{id:\"unbreaking\",lvl:1}]}",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:unbreaking",
+                  "levels": 1
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{Enchantments:[{id:\"unbreaking\",lvl:2}]}",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:unbreaking",
+                  "levels": 2
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{Enchantments:[{id:\"unbreaking\",lvl:3}]}",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:unbreaking",
+                  "levels": 3
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+]

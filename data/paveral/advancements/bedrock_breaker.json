@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{paveral.bedrock_breaker: 1b,CustomModelData: 5}"
+    },
+    "title": {
+      "text": "Ground Breaking",
+      "color": "gray"
+    },
+    "description": "Finally being able to lose equipment to the void in the overworld",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "paveral:first_forming",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus_on_a_stick"
+            ],
+            "nbt": "{paveral.bedrock_breaker: 1b}"
+          }
+        ]
+      }
+    }
+  }
+}

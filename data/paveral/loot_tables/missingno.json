@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "WorldGlitchShard",
+                "color": "light_purple",
+                "obfuscated": true
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{paveral.missingno:1b,CustomModelData:2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

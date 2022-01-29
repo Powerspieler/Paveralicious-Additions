@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{paveral.sheepfreeze: 1b,CustomModelData: 2}"
+    },
+    "title": {
+      "text": "Baa!",
+      "color": "blue",
+      "bold": false
+    },
+    "description": "not quite GOAT Simulator",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "paveral:first_forming",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus_on_a_stick"
+            ],
+            "nbt": "{paveral.sheepfreeze: 1b}"
+          }
+        ]
+      }
+    }
+  }
+}

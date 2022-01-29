@@ -1,0 +1,21 @@
+{
+	"replace": false,
+	"values": [
+		"paveral:init",
+		"paveral:disassembling_table/init",
+
+		"paveral:schedule_forming",
+		"paveral:schedule_dis",
+
+  	"items:missingno/schedule",
+
+		"items:lightning_rod/init",
+		"items:sheepfreeze/init",
+		"items:wrench/init",
+		"items:lightstaff/init",
+		"items:bedrock_breaker/init",
+		"items:boombox/init",
+
+		"items:global.init"
+	]
+}

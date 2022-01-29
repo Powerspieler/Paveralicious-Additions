@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Press ",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "keybind": "key.use",
+                      "color": "yellow",
+                      "italic": false
+                    },
+                    {
+                      "text": " to place and dim lightblock.",
+                      "italic": false
+                    }
+                  ]
+                },
+                {
+                  "text":"",
+                  "italic":"false"
+                },
+                {
+                  "text": "Enchantable with ",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "Unbreaking",
+                      "color": "gray",
+                      "italic": false
+                    },
+                    {
+                      "text": " and ",
+                      "italic": false
+                    },
+                    {
+                      "text": "Mending",
+                      "color": "gray",
+                      "italic": "false"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Lightstaff",
+                "color": "gold",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{paveral.lightstaff:1b,CustomModelData:4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

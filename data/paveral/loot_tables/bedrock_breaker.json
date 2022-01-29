@@ -1,0 +1,112 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Press ",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "keybind": "key.use",
+                      "color": "yellow",
+                      "italic": false
+                    },
+                    {
+                      "text": " to break bedrock",
+                      "italic": false
+                    }
+                  ]
+                },
+                {
+                  "text":"and get rid of the infestation using ancient debris.",
+                  "italic":"false"
+                },
+                {
+                  "text":"",
+                  "italic":"false"
+                },
+                {
+                  "text": "Only enchantable with ",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "Unbreaking",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "B",
+                "color": "gray",
+                "italic": false,
+                "extra": [
+                  {
+                    "text": "e",
+                    "color": "black",
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "dr",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "o",
+                    "color": "black",
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "ck Br",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "ea",
+                    "color": "black",
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "k",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "e",
+                    "color": "black",
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "r",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{paveral.bedrock_breaker:1b,CustomModelData:5}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

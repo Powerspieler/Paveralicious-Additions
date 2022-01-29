@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{paveral.lightning_rod: 1b,CustomModelData: 1}"
+    },
+    "title": {
+      "text": "Unlimited Power!",
+      "color": "dark_red",
+      "bold": true
+    },
+    "description": "May the force be with you",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "paveral:first_forming",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus_on_a_stick"
+            ],
+            "nbt": "{paveral.lightning_rod: 1b}"
+          }
+        ]
+      }
+    }
+  }
+}

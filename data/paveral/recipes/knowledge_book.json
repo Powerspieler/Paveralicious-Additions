@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "S+S",
+    "#S#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:amethyst_block"
+    },
+    "S": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "C": {
+      "item": "minecraft:amethyst_cluster"
+    },
+    "+": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book"
+  }
+}

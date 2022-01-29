@@ -1,0 +1,130 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 5
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{filtered_title: \"Fairy Tail\", pages: ['{\"text\":\"Once upon a time there lived a small family of shepherds.\\\\nOn a day the youngest son of the family ran to his father to warn him from the wolves he heard of in the village but when he arrived at home he only heard a whimper in the distance, his father came home soaked in sweat. \"}', '{\"text\":\"The little boy couldn\\'t sleep the entire night, he was too curious where the whimpering was coming from. The next day he heard the warning of wolves again, he was running faster then the day before and actually he was fast enough to witness something, he saw that his father was wielding a staff.\"}', '{\"text\":\"The boy was sure that the staff was sparkling. Was it magical? He thought to himself, he didn\\'t know.\\\\nThe next few days there were no warnings of wolves and he was thinking that these things he saw must have been dreams, but on this night his opinion will change for sure.\"}', '{\"text\":\"In the middle of the night the family was woken up by a loud howl. There where duzends of wolves and the sheeps where magicly gone, no blood, nothing. The father ran to his crook and defended us from the wolves but suddenly there was a sparkle   \\\\non it, when his father pointed at the wolves \"}', '{\"text\":\"the sparkle got brighter and the wolf he pointed on became a sheep. In a intense battle (that we will not discribe because fairytail and shit) the father transformed all the wolves into sheep. On the next day the boy told his father about the things he saw and heard and asked what\"}', '{\"text\":\"is behind this magic.\\\\nThe father told him  everything in detail that this staff was used since centurys in the family and was made with 2 glowing hot sticks and a sparkling stone, combined with a fur that was shimmering in all colors will make a magical crook that will eliminate all threats \"}', '{\"text\":\"and will provide you with goods. A few months after the father gave the knowledge to his son he died because of the fight with the wolves on that day.\\\\nAnd so the son followed in his father\\'s footsteps and became a sheperd\\\\nwith the help of that crook his father used.\"}'], title: \"Fairy Tail - The little shepherd\", author: \"\",generation:0,paveral.fairy_tail:1b,paveral.fairy_tail.id:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:white_wool",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 8
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:black_wool",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:gray_wool",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:brown_wool",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:light_gray_wool",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shears"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:wheat",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 6
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

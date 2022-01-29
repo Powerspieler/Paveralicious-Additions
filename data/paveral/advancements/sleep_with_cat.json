@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:red_bed"
+    },
+    "title": {
+      "text": "Sleep With Your Cat",
+      "color": "gold"
+    },
+    "description": {
+      "text": "It's not what you think, Felix!"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "paveral:craft_tutorial_book",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:written_book"
+            ],
+            "nbt": "{paveral.bedrock_breaker:1b}"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": ":: ",
+                  "color": "gold",
+                  "italic": true,
+                  "obfuscated": true
+                },
+                {
+                  "text": "Golden Crook",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": " ::",
+                  "color": "gold",
+                  "italic": true,
+                  "obfuscated": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Call of the Sheep."
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{paveral.sheepfreeze:1b,Unbreakable:1b,CustomModelData:2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

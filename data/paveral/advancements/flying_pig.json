@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:player_head",
+      "nbt": "{SkullOwner: {Id: [I; -1957230709, -239254049, -2084251507, 376868798], Properties: {textures: [{Value: 'ewogICJ0aW1lc3RhbXAiIDogMTYzNTk0MDUxODE0NiwKICAicHJvZmlsZUlkIiA6ICI4YjU3MDc4YmYxYmQ0NWRmODNjNGQ4OGQxNjc2OGZiZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfUGlnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E1NjJhMzdiODcxZjk2NGJmYzNlMTMxMWVhNjcyYWFhMDM5ODRhNWRjNDcyMTU0YTM0ZGMyNWFmMTU3ZTM4MmIiCiAgICB9CiAgfQp9'}]}}}"
+    },
+    "title": "If Pigs Could Fly",
+    "description": "Bonk a pig of the ledge.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "paveral:bonk",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{SelectedItem:{tag:{paveral.bonk: 1b}}}"
+        },
+        "entity": {
+          "type": "minecraft:pig",
+          "nbt": "{Tags:[\"falled_enough\"]}"
+        }
+      }
+    }
+  }
+}

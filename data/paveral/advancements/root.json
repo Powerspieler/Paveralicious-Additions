@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:knowledge_book"
+    },
+    "title": {
+      "text": "Paveralicious Additions",
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Somebody needs way more items!",
+      "color": "light_blue"
+    },
+    "background": "textures/block/lodestone_side.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:shulker",
+          "location": {
+            "feature": "endcity",
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "paveral:knowledge_book"
+    ]
+  }
+}
