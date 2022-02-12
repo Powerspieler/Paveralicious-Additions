@@ -4,6 +4,9 @@ execute as @a[scores={rclick=1..}] at @s run scoreboard players reset @s rclick
 # Mark name tagged entities. Used by ["lightning_rod"]
 execute as @a[scores={lr.whitecount=1..}] as @e[type=!player] at @s store success score @s isnametagged run data get entity @s CustomName
 
+# Check for gamerule. Used by ["lightning_rod"]
+execute if entity @a[scores={lr.whitecount=1..}] store result score #doFireTick gamerule run gamerule doFireTick
+
 # Used by ["wrench"]
 execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",tag:{paveral.wrench:1b}}},scores={sneaking=1..}] at @s run scoreboard players reset @s sneaking
 

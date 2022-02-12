@@ -16,3 +16,11 @@ scoreboard objectives add lr.damage dummy
 
 # Set damage value casted by the lightning_rod
 scoreboard players set #value lr.damage 6
+
+#phantom
+scoreboard objectives add lr.phantom dummy
+scoreboard objectives add lr.paralyze dummy
+bossbar add lr.phantom {"text":"Phantom Combo","color":"blue"}
+bossbar set minecraft:lr.phantom max 600
+bossbar set minecraft:lr.phantom style notched_6
+bossbar set minecraft:lr.phantom color yellow

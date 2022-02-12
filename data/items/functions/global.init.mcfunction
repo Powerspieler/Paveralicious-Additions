@@ -13,6 +13,9 @@ scoreboard objectives add sneaking minecraft.custom:minecraft.sneak_time
 # Used by ["wrench"]
 scoreboard objectives add rotation dummy
 
+# Used by ["lightning_rod"]
+scoreboard objectives add gamerule dummy
+
 
 
 

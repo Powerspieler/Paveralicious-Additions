@@ -1,4 +1,5 @@
 # Set Cooldown 1s = 20
+tag @s add lr.casted
 scoreboard players set @s lr.cooldown 201
 
 playsound minecraft:entity.lightning_bolt.thunder master @a[distance=..75] ~ ~ ~ 1 1.8
