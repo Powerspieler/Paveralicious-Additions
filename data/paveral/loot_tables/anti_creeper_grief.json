@@ -12,7 +12,18 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "Creepers suddenly feel like celebrating!"
+                  "text": "Creepers suddenly feel like celebrating!",
+                  "italic": false
+                },
+                {
+                  "text": "Can be placed in an Item Frame.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "When hold in hand it's showing if you're nearby a Creeper Defuser.",
+                  "color": "gray",
+                  "italic": false
                 }
               ]
             },
