@@ -15,7 +15,7 @@ Just a knockback stick. But this whole datapack started with this one silly idea
 Like the name is already telling, it breaks bedrock. But it comes with its price.
 
 #### Lightning Rod
-A staff shooting a lightning, which damages and sets hostile mobs on fire.
+A staff shooting a lightning, which provides a protection against phantoms.
 
 #### Golden Crook
 A staff which converts any mob (- even players) to a sheep and converting them back upon death. Helpful for transporting some villagers or play a trick with some hostile mobs.
@@ -24,7 +24,7 @@ A staff which converts any mob (- even players) to a sheep and converting them b
 A small tribute to the Debug stick. Rotate and Modify some blocks.
 
 #### Creeper Defuser
-Creepers do not breaking any blocks around players having it in their inventory.
+Creepers do not break any blocks around players having it in their inventory or inside an item frame.
 
 #### Lightstaff
 Light up dark areas with invisible light sources. Light level can be adjusted.
