@@ -3,9 +3,11 @@
 	"values": [
 		"paveral:init",
 		"paveral:disassembling_table/init",
+		"paveral:forge/init",
 
 		"paveral:schedule_forming",
 		"paveral:schedule_dis",
+		"paveral:schedule_forge",
 
   	"items:missingno/schedule",
 
@@ -14,7 +16,6 @@
 		"items:wrench/init",
 		"items:lightstaff/init",
 		"items:bedrock_breaker/init",
-		"items:boombox/init",
 
 		"items:global.init"
 	]

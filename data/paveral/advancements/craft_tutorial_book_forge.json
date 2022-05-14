@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:written_book"
+    },
+    "title": "Again..?",
+    "description": "It's going to be a Trilogy!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "paveral:craft_tutorial_book",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:written_book"
+            ],
+            "nbt": "{paveral.tutorial_book_forge:1b}"
+          }
+        ]
+      }
+    }
+  }
+}

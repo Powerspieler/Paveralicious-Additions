@@ -28,9 +28,6 @@ execute as @e[type=item,nbt={Item:{tag:{paveral.golden_crook_base:1b}, Count: 1b
 # Creeper_Head + Firework_Star + Powder_Snow_Bucket = Anti Creeper Grief
 execute as @e[type=item,nbt={Item:{id: "minecraft:creeper_head", Count: 1b}}] at @s align xyz positioned ~0.5 ~ ~0.5 if block ~ ~-1 ~ minecraft:lodestone if entity @e[type=item,nbt={Item:{id:"minecraft:firework_star",Count:1b}},distance=..1] if entity @e[type=item,nbt={Item:{id:"minecraft:powder_snow_bucket",Count:1b}},distance=..1] if entity @a[advancements={paveral:root=true},tag=paveral.dis.anti_creeper_grief,distance=..15] run function paveral:forms/anti_creeper_grief
 
-# 2x Iron Ingot + Diamond = Wrench
-execute as @e[type=item,nbt={Item:{id: "minecraft:iron_ingot", Count: 2b}}] at @s align xyz positioned ~0.5 ~ ~0.5 if block ~ ~-1 ~ minecraft:lodestone if entity @e[type=item,nbt={Item:{id:"minecraft:diamond",Count:1b}},distance=..1] if entity @a[advancements={paveral:root=true},tag=paveral.dis.wrench,distance=..15] run function paveral:forms/wrench
-
 # 2x Iron Ingot + Copper_Ingot + Redstone_Lamp + 2x Wither Rose = Lightstaff
 execute as @e[type=item,nbt={Item:{id: "minecraft:iron_ingot", Count: 2b}}] at @s align xyz positioned ~0.5 ~ ~0.5 if block ~ ~-1 ~ minecraft:lodestone if entity @e[type=item,nbt={Item:{id:"minecraft:copper_ingot",Count:1b}},distance=..1] if entity @e[type=item,nbt={Item:{id:"minecraft:redstone_lamp",Count:1b}},distance=..1] if entity @e[type=item,nbt={Item:{id:"minecraft:wither_rose",Count:2b}},distance=..1] if entity @a[advancements={paveral:root=true},tag=paveral.dis.lightstaff,distance=..15] run function paveral:forms/lightstaff
 
@@ -42,3 +39,6 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:knowledge_book", Count: 1b}}] a
 
 # 1x Obsidian + 2x Piston + 2x TNT + 1x Lever, 1x Oak_Trapdoor, 4x Ancient Debris  = Bedrock Breaker
 execute as @e[type=item,nbt={Item:{id: "minecraft:ancient_debris", Count: 4b}}] at @s align xyz positioned ~0.5 ~ ~0.5 if block ~ ~-1 ~ minecraft:lodestone if entity @e[type=item,nbt={Item:{id:"minecraft:obsidian",Count:1b}},distance=..1] if entity @e[type=item,nbt={Item:{id:"minecraft:piston",Count:2b}},distance=..1] if entity @e[type=item,nbt={Item:{id:"minecraft:tnt",Count:2b}},distance=..1] if entity @e[type=item,nbt={Item:{id:"minecraft:lever",Count:1b}},distance=..1] if entity @e[type=item,nbt={Item:{id:"minecraft:oak_trapdoor",Count:1b}},distance=..1] if entity @a[advancements={paveral:root=true},tag=paveral.bedrock_breaker,distance=..15] run function paveral:forms/bedrock_breaker
+
+# Tutorial Book Forge
+execute as @e[type=item,nbt={Item:{tag:{paveral.tutorial_book_dis: 1b}, Count: 1b}}] at @s align xyz positioned ~0.5 ~ ~0.5 if block ~ ~-1 ~ minecraft:lodestone if entity @a[advancements={paveral:root=true},tag=paveral.wetpaper,distance=..15] run function paveral:forms/tutorial_book_forge
