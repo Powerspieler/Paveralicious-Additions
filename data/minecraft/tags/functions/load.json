@@ -16,6 +16,7 @@
 		"items:wrench/init",
 		"items:lightstaff/init",
 		"items:bedrock_breaker/init",
+		"items:chunkloader/init",
 
 		"items:global.init"
 	]

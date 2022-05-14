@@ -12,6 +12,7 @@
 		"items:wrench/main",
 		"items:lightstaff/main",
 		"items:bedrock_breaker/main",
+		"items:chunkloader/main",
 
 		"paveral:spawn_protection",
 		"items:global.main"
