@@ -3,12 +3,12 @@ execute as @a[scores={leave_detect=1..}] at @s run tag @s add spawn_protection
 execute as @a[scores={leave_detect=1..}] at @s run team join spawnp.ff @s
 
 # Resourcepack Message shown after playermove
-execute as @a[tag=!spawn_protection,scores={leave_rp.msg=1..},tag=!paveral.rp.seen1_3] at @s run tellraw @s {"translate":"Server Resourcepack has been updated to a newer Version (1.3)!\nDownload it by changing the setting \"Server Resource Packs\" of the server in your serverlist to \"Prompt\"","color":"red","with":[{"text":"Resourcepack loaded. [Hide]","color":"green","clickEvent":{"action":"run_command","value":"/trigger paveral.rp.hide"},"hoverEvent":{"action":"show_text","contents":[{"text":"Hide Message","color":"yellow"}]}}]}
+execute as @a[tag=!spawn_protection,scores={leave_rp.msg=1..},tag=!paveral.rp.seen1_4] at @s run tellraw @s {"translate":"Server Resourcepack has been updated to a newer Version (1.4)!\nDownload it by changing the setting \"Server Resource Packs\" of the server in your serverlist to \"Prompt\"","color":"red","with":[{"text":"Resourcepack loaded. [Hide]","color":"green","clickEvent":{"action":"run_command","value":"/trigger paveral.rp.hide"},"hoverEvent":{"action":"show_text","contents":[{"text":"Hide Message","color":"yellow"}]}}]}
 execute as @a[tag=!spawn_protection,scores={leave_rp.msg=1..}] at @s run scoreboard players reset @s leave_rp.msg
 
 # Hide Resourcepack Message
-scoreboard players enable @a[scores={leave_detect=1..}] paveral.rp.hide
-execute as @a[scores={paveral.rp.hide=1..}] at @s run tag @s add paveral.rp.seen1_3
+scoreboard players enable @a[scores={leave_detect=1..},tag=!paveral.rp.seen1_4] paveral.rp.hide
+execute as @a[scores={paveral.rp.hide=1..}] at @s run tag @s add paveral.rp.seen1_4
 execute as @a[scores={paveral.rp.hide=1..}] at @s run scoreboard players reset @s paveral.rp.hide
 
 

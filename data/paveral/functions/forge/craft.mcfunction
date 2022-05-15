@@ -1,6 +1,6 @@
 scoreboard players add @s paveral.forge.craft 1
 
-execute if score @s paveral.forge.craft matches 1 run data merge block ~ ~1 ~ {Lock:"l0cKtHiS"}
+execute if score @s paveral.forge.craft matches 1 run data merge block ~ ~1 ~ {Lock:"l0cKtHiS",CustomName:'{"translate":"paveral.forge"}'}
 execute if score @s paveral.forge.craft matches 1 run playsound minecraft:block.piston.extend master @a[distance=..15]
 execute if score @s paveral.forge.craft matches 1 run particle minecraft:campfire_cosy_smoke ~ ~1.5 ~ 0 0 0 0.1 10
 
