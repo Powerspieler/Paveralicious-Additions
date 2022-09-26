@@ -1,7 +1,7 @@
-# Paveralicious Additions
+# Paveralicious Additions (DISCONTINUED!)
 This is a Minecraft Datapack which adds a few items and a way of crafting them. This is meant to be a little addition to tweak the vanilla survival gameplay.
 
-Resourcepack: [https://github.com/Powerspieler/Paveralicious-Additions---Resourcepack](https://github.com/Powerspieler/Paveralicious-Additions---Resourcepack)
+Resourcepack: [https://github.com/Powerspieler/Paveral-Resourcepack](https://github.com/Powerspieler/Paveral-Resourcepack)
 
 ## About
 All of the items are meant to be late-game content, therefore the whole story begins by killing a shulker in an endcity.
